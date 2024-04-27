@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-const cars = new Schema({
+let cars = new Schema({
 dealer_id: {
     type: Number,
     required: true
